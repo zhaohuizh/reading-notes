@@ -1,0 +1,18 @@
+My name is Zhaohui Zhang and I am applying Georgia Institute of Technology for admission of the Online Master of Science in Computer Science program. Currently I am working as a software development enginner at Amazon's Aurora team. We are building a new distributed database engine called Aurora, which is highly scalable, highly available and can achieve 5X increase throughput over MySQL.
+
+
+During these days at Amazon, I have been facing new challenges and learning new things every day. For example, in the original MySQL, it allocates one thread per client, which does not scale very well on large machines - once the number of clients became significantly large, they are competing with each other acquiring lower level locks. On the other hand, if there are few clients, the database is not bounded by CPU since only a small number of threads are doing work. I solved this problem with a new scheduling algorithm and implemented a lock free task queue with fixed number of threads (based on the CPU resource) handling the client connections. With this implementation, the performance now bounds by CPU and it scales almost linearly from running on the smallest to the larges machines. Before diving into database internals, I have also worked on developing our storage cluster control plane services in Java. I delivered an internal backend web services and it has been helping operational engineers effectively monitor the cluster status and quickly identify issues. With the outstanding work I have done, I got an outstanding ranking in our annual performance review and got promoted quicker than other candidates.
+
+
+
+Prior to Amazon, I graduated from New York University's Courant Intitute with a master degree in computer science. At NYU I took courses in diverse areas so that I could build a solid foundation in computer science. I got very good grades especially in courses like Distributed Systems and Cloud Computing etc. I was also a teaching assistant in graduate level database systems course. My duty was >>>>. 
+
+
+
+With my professional experience goes at Amazon, I have learned a lot and gained an extremely strong interest in distributed systems and database systems. I decided to go back to school with an expectation of gaining knowledge in these fields in a very organized way and building a solid ground. With extensive research on highly rated schools and areas they are good for, I found Georgia Institute of Technology is a great fit for my demand. I believe that my academic background and professional experience will make me a unique candidate in your program. And I thank you for considering my application and look forward to hearing back from you.
+
+
+Sincerely,
+
+
+Zhaohui Zhang
